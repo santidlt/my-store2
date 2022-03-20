@@ -12,5 +12,6 @@ export class ImgComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  @Input() img: string = 'valor init'
+  @Input()
+  img: string = ''
 }
